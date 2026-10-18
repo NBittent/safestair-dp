@@ -1,0 +1,367 @@
+{
+  "descricao": "Rede de estações SafeStair — vértices = estações + base; arestas = trechos em minutos",
+  "unidade_peso": "minutos",
+  "base": "BASE",
+  "vertices": [
+    {
+      "id": "LUZ",
+      "nome": "Luz",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5365,
+      "lon": -46.6339
+    },
+    {
+      "id": "REP",
+      "nome": "República",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5443,
+      "lon": -46.6425
+    },
+    {
+      "id": "HIG",
+      "nome": "Higienópolis-Mackenzie",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5478,
+      "lon": -46.6516
+    },
+    {
+      "id": "PTA",
+      "nome": "Paulista",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5553,
+      "lon": -46.6619
+    },
+    {
+      "id": "FRE",
+      "nome": "Oscar Freire",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5615,
+      "lon": -46.6721
+    },
+    {
+      "id": "FRA",
+      "nome": "Fradique Coutinho",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.566,
+      "lon": -46.684
+    },
+    {
+      "id": "FAL",
+      "nome": "Faria Lima",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5673,
+      "lon": -46.6935
+    },
+    {
+      "id": "PIN",
+      "nome": "Pinheiros",
+      "linhas": [
+        "4-Amarela",
+        "9-Esmeralda"
+      ],
+      "lat": -23.5672,
+      "lon": -46.702
+    },
+    {
+      "id": "BUT",
+      "nome": "Butantã",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5717,
+      "lon": -46.7081
+    },
+    {
+      "id": "MBI",
+      "nome": "São Paulo-Morumbi",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5869,
+      "lon": -46.7229
+    },
+    {
+      "id": "VSO",
+      "nome": "Vila Sônia",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5937,
+      "lon": -46.7363
+    },
+    {
+      "id": "TVS",
+      "nome": "Terminal Vila Sônia",
+      "linhas": [
+        "4-Amarela"
+      ],
+      "lat": -23.5951,
+      "lon": -46.7378
+    },
+    {
+      "id": "CJD",
+      "nome": "Cidade Jardim",
+      "linhas": [
+        "9-Esmeralda"
+      ],
+      "lat": -23.5855,
+      "lon": -46.6956
+    },
+    {
+      "id": "VOL",
+      "nome": "Vila Olímpia",
+      "linhas": [
+        "9-Esmeralda"
+      ],
+      "lat": -23.5945,
+      "lon": -46.692
+    },
+    {
+      "id": "BER",
+      "nome": "Berrini",
+      "linhas": [
+        "9-Esmeralda"
+      ],
+      "lat": -23.6082,
+      "lon": -46.6957
+    },
+    {
+      "id": "SAM",
+      "nome": "Santo Amaro",
+      "linhas": [
+        "9-Esmeralda",
+        "5-Lilás"
+      ],
+      "lat": -23.655,
+      "lon": -46.7185
+    },
+    {
+      "id": "CBE",
+      "nome": "Campo Belo",
+      "linhas": [
+        "5-Lilás"
+      ],
+      "lat": -23.6208,
+      "lon": -46.6745
+    },
+    {
+      "id": "MOE",
+      "nome": "Moema",
+      "linhas": [
+        "5-Lilás"
+      ],
+      "lat": -23.6008,
+      "lon": -46.6637
+    },
+    {
+      "id": "SCZ",
+      "nome": "Santa Cruz",
+      "linhas": [
+        "5-Lilás"
+      ],
+      "lat": -23.599,
+      "lon": -46.6366
+    },
+    {
+      "id": "BASE",
+      "nome": "Base de Manutenção (Pátio Vila Sônia)",
+      "linhas": [
+        "base"
+      ],
+      "lat": -23.5985,
+      "lon": -46.7445
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "LUZ",
+      "destino": "REP",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "REP",
+      "destino": "HIG",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "HIG",
+      "destino": "PTA",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "PTA",
+      "destino": "FRE",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "FRE",
+      "destino": "FRA",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "FRA",
+      "destino": "FAL",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "FAL",
+      "destino": "PIN",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "PIN",
+      "destino": "BUT",
+      "minutos": 2,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "BUT",
+      "destino": "MBI",
+      "minutos": 3,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "MBI",
+      "destino": "VSO",
+      "minutos": 3,
+      "modo": "metro",
+      "linha": "4-Amarela",
+      "obs": ""
+    },
+    {
+      "origem": "VSO",
+      "destino": "TVS",
+      "minutos": 3,
+      "modo": "a pé",
+      "linha": "acesso",
+      "obs": "passarela entre a estação e o terminal"
+    },
+    {
+      "origem": "PIN",
+      "destino": "CJD",
+      "minutos": 9,
+      "modo": "trem",
+      "linha": "9-Esmeralda",
+      "obs": "agregado; inclui baldeação de 4 min em Pinheiros"
+    },
+    {
+      "origem": "CJD",
+      "destino": "VOL",
+      "minutos": 3,
+      "modo": "trem",
+      "linha": "9-Esmeralda",
+      "obs": ""
+    },
+    {
+      "origem": "VOL",
+      "destino": "BER",
+      "minutos": 3,
+      "modo": "trem",
+      "linha": "9-Esmeralda",
+      "obs": ""
+    },
+    {
+      "origem": "BER",
+      "destino": "SAM",
+      "minutos": 9,
+      "modo": "trem",
+      "linha": "9-Esmeralda",
+      "obs": "agregado (Morumbi, Granja Julieta, João Dias)"
+    },
+    {
+      "origem": "SAM",
+      "destino": "CBE",
+      "minutos": 15,
+      "modo": "metro",
+      "linha": "5-Lilás",
+      "obs": "agregado; inclui baldeação de 3 min em Santo Amaro"
+    },
+    {
+      "origem": "CBE",
+      "destino": "MOE",
+      "minutos": 4,
+      "modo": "metro",
+      "linha": "5-Lilás",
+      "obs": "agregado (Eucaliptos)"
+    },
+    {
+      "origem": "MOE",
+      "destino": "SCZ",
+      "minutos": 6,
+      "modo": "metro",
+      "linha": "5-Lilás",
+      "obs": "agregado (AACD-Servidor, Hospital São Paulo)"
+    },
+    {
+      "origem": "BASE",
+      "destino": "VSO",
+      "minutos": 6,
+      "modo": "rodovia",
+      "linha": "rodovia",
+      "obs": "van da equipe até a estação vizinha ao pátio"
+    },
+    {
+      "origem": "BASE",
+      "destino": "BUT",
+      "minutos": 14,
+      "modo": "rodovia",
+      "linha": "rodovia",
+      "obs": "van pela Av. Francisco Morato"
+    },
+    {
+      "origem": "BASE",
+      "destino": "PTA",
+      "minutos": 35,
+      "modo": "rodovia",
+      "linha": "rodovia",
+      "obs": "van pela Av. Rebouças, trânsito de pico"
+    },
+    {
+      "origem": "BASE",
+      "destino": "SAM",
+      "minutos": 25,
+      "modo": "rodovia",
+      "linha": "rodovia",
+      "obs": "van pela Marginal Pinheiros"
+    }
+  ]
+}
